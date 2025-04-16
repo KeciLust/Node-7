@@ -32,5 +32,5 @@ app.use("/api", putBookRouter);
 app.use("/api", deleteBookRouter);
 
 app.use("/api", getBookDownLoadRouter);
-// app.use("/public", express.static(__dirname + "/public/books/download/"));
+
 app.listen(process.env.PORT || 3000);
